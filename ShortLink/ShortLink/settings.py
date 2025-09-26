@@ -28,7 +28,7 @@ DEBUG = os.getenv("DEBUG", "True") == "True"
 if DEBUG:
     ALLOWED_HOST = ["localhost", "127.0.0.1"]
 else:
-    ALLOWED_HOST = ["shortlink-0udr.onrender.com"]
+    ALLOWED_HOST = ["shortlink-0udr.onrender.com", "*.onrender.com"]
 
 # ALLOWED_HOSTS = [""]
 
